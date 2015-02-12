@@ -8,17 +8,42 @@
 
 <h2>@ViewBag.Message</h2>
 
+  
 
-  @foreach (var session in Model)
-        {
-            <div data-role="collapsible">
-                <h2>@session.Title</h2>
-                <p>@session.Description</p>
-                <a  href="/SessionsMVC/SessionDetails?id=@session.Id">@session.Code</a>
-            </div>
-
-
+        <ul data-role="listview" data-filter="true" data-filterplaceholder="
+Search...">
+@foreach (var session in Model)
+    {
+            <li data-theme="a">
+                <div data-role="collapsible">
+                    <h2 data-role="listview">@session.Title</h2>
+                    <p>@session.Description</p>
+                    <a href="/SessionsMVC/SessionDetails?id=@session.Id">@session.Code</a>
+                </div>
+            </li>
         }
+
+
+            </ul>
+
+
+@*<li data-role="listview" data-theme="a">
+
+    @foreach (var session in Model)
+    {
+        <div data-role="collapsible">
+            <h2>@session.Title</h2>
+            <p>@session.Description</p>
+            <a href="/SessionsMVC/SessionDetails?id=@session.Id">@session.Code</a>
+        </div>
+
+
+    }
+</li>*@
+
+
+
+
 
 
 

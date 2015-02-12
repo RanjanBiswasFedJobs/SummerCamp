@@ -1,4 +1,5 @@
 C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Model\bin\Debug\SummerCamp.Model.dll
 C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Model\bin\Debug\SummerCamp.Model.pdb
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Model\obj\Debug\SummerCamp.Model.csprojResolveAssemblyReference.cache
 C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Model\obj\Debug\SummerCamp.Model.dll
 C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Model\obj\Debug\SummerCamp.Model.pdb

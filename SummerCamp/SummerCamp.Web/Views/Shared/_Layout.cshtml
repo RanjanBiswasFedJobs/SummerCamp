@@ -11,7 +11,7 @@
 
     <div data-add-back-btn="true" data-back-btn-text="Previous" data-position="fixed"
          data-back-btn-theme="a" data-role="page" data-theme="a" id="home">
-        <div data-role="header">
+        <div data-role="header" data-theme="a">
             <h1>Summer Code Camp</h1>
 
             @if (IsSectionDefined("Header"))
@@ -23,7 +23,13 @@
 
                 @Html.Partial("_LoginPartial")
             }
-        </div>
+
+
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a href="#logout" data-theme="a" data-transition="slidedown">Logout</a>
+            }
+</div>
         <div data-role="content">
             @RenderBody()
         </div>

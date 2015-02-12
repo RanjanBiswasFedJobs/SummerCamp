@@ -20,7 +20,7 @@ namespace SummerCamp.Web
 
             kernel.Bind<IRepositoryProvider>().To<RepositoryProvider>();
             kernel.Bind<ISummerCampUow>().To<SummerCampUow>();
-            kernel.Bind<IServerDataRestClient>().To<ServerDataRestClient>();
+           // kernel.Bind<IServerDataRestClient>().To<ServerDataRestClient>();
 
             // Tell WebApi how to use our Ninject IoC
             config.DependencyResolver = new NinjectDependencyResolver(kernel);
