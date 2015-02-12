@@ -1,0 +1,28 @@
+﻿@model SummerCamp.Model.Feedback
+@{
+    ViewBag.Title = "Index";
+}
+<form action="SubmitFeedback" method="post" data-transition="flip">
+    <div data-role="fieldcontain">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" value="" required />
+    </div>
+    <div data-role="fieldcontain">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" value="" required />
+    </div>
+    <div data-role="fieldcontain">
+        <label for="comments">Comments:</label>
+        <textarea cols="40" rows="8" name="comments" id="comments"></textarea>
+    </div>
+    <div data-role="fieldcontain">
+        <label for="contacted">Can we contact you?</label>
+        <select name="contacted" id="contacted" data-role="slider">
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+        </select>
+    </div>
+  
+    <input type="submit" value="Send" data-theme="b">
+</form>
+

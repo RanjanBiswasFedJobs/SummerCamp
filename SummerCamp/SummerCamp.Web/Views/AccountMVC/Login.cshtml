@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2 style="text-align: center;">Log in</h2>
+<form action="/Account/ManageInfo?returnUrl=%2F&generateState=true" method="post" data-transition="pop">
+    <div data-role="fieldcontain">
+        <label for="senderName">Your Username:</label>
+        <input type="text" name="senderUsername" id="senderUsername" required>
+    </div>
+    <div data-role="fieldcontain">
+        <label for="senderEmail">Your Password:</label>
+        <input type="password" name="senderPassword" id="senderPassword" required>
+    </div>
+  
+    <input type="submit" name="sendMessage" id="sendMessage" data-theme="b"
+           value="Send">
+</form>
+      
+

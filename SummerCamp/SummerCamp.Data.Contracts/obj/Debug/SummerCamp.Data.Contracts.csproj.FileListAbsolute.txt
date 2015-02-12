@@ -1,0 +1,7 @@
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data.Contracts\bin\Debug\SummerCamp.Data.Contracts.dll
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data.Contracts\bin\Debug\SummerCamp.Data.Contracts.pdb
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data.Contracts\bin\Debug\SummerCamp.Model.dll
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data.Contracts\bin\Debug\SummerCamp.Model.pdb
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data.Contracts\obj\Debug\SummerCamp.Data.Contracts.csprojResolveAssemblyReference.cache
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data.Contracts\obj\Debug\SummerCamp.Data.Contracts.dll
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data.Contracts\obj\Debug\SummerCamp.Data.Contracts.pdb

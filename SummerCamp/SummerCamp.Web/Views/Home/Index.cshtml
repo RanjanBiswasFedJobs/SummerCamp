@@ -1,0 +1,28 @@
+﻿@model IEnumerable<SummerCamp.Model.Session>
+
+
+@{
+
+    ViewBag.Title = "2015 Sessions";
+}
+
+<h2>@ViewBag.Message</h2>
+
+
+  @foreach (var session in Model)
+        {
+            <div data-role="collapsible">
+                <h2>@session.Title</h2>
+                <p>@session.Description</p>
+                <a  href="/SessionsMVC/SessionDetails?id=@session.Id">@session.Code</a>
+            </div>
+
+
+        }
+
+
+
+
+
+
+

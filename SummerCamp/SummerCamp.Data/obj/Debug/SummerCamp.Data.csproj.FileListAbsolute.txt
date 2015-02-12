@@ -1,0 +1,17 @@
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\bin\Debug\SummerCamp.Data.dll.config
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\bin\Debug\SummerCamp.Data.dll
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\bin\Debug\SummerCamp.Data.pdb
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\bin\Debug\EntityFramework.dll
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\bin\Debug\NLipsum.Core.dll
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\bin\Debug\SummerCamp.Data.Contracts.dll
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\bin\Debug\SummerCamp.Model.dll
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\bin\Debug\SummerCamp.Data.Contracts.pdb
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\bin\Debug\SummerCamp.Model.pdb
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\bin\Debug\EntityFramework.xml
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\bin\Debug\NLipsum.Core.pdb
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\bin\Debug\NLipsum.Core.xml
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\obj\Debug\SummerCamp.Data.csprojResolveAssemblyReference.cache
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\obj\Debug\SummerCamp.Data.dll
+C:\SinglePageApplication\SummerCamp\SummerCamp\SummerCamp.Data\obj\Debug\SummerCamp.Data.pdb
