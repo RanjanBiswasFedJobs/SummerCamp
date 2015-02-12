@@ -36,9 +36,9 @@ namespace SummerCamp.Web.Controllers
         }
 
 
-        public void RegisterClass()
+        public ViewResult    RegisterClass()
         {
-
+            return View();
 
 
         }
