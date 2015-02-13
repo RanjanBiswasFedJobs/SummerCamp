@@ -1,0 +1,20 @@
+﻿@model IEnumerable<SummerCamp.Model.Track>
+@{
+    ViewBag.Title = "Tracks";
+}
+
+<h2>@ViewBag.Message</h2>
+
+<ul data-role="listview" data-theme="a" data-inset="true">
+    <li data-role="list-divider" data-theme="b">Tracks</li>
+        @foreach (var track in Model)
+        {
+           
+            <li>
+                <h2>@track.Name</h2>               
+                <a href="/TracksMVC/TrackDetails?id=@track.Id">@track.Id</a>
+            </li>
+
+
+        }
+    </ul>

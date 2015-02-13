@@ -219,12 +219,16 @@
     <Compile Include="Controllers\MVCBaseController.cs" />
     <Compile Include="Controllers\SessionsController.cs" />
     <Compile Include="Controllers\SessionsMVCController.cs" />
+    <Compile Include="Controllers\TracksController.cs" />
     <Compile Include="Controllers\SpeakersMVCController.cs" />
+    <Compile Include="Controllers\TracksMVCController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helper\IServerDataRestClient.cs" />
+    <Compile Include="Helper\ITracksRestClient.cs" />
     <Compile Include="Helper\ServerDataRestClient.cs" />
+    <Compile Include="Helper\TracksRestClient.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -491,6 +495,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Images\orderedList.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
@@ -554,6 +559,8 @@
     <Content Include="Views\SessionsMVC\SessionDetails.cshtml" />
     <Content Include="Views\SessionsMVC\RegisterClass.cshtml" />
     <Content Include="Views\FeedbackMVC\Index.cshtml" />
+    <Content Include="Views\TracksMVC\Index.cshtml" />
+    <Content Include="Views\TracksMVC\TrackDetails.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -562,6 +569,7 @@
     <Folder Include="Tests\webapi\" />
     <Folder Include="Views\LookupsMVC\" />
     <Folder Include="Views\SpeakersMVC\" />
+    <Folder Include="Views\Speakers\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
